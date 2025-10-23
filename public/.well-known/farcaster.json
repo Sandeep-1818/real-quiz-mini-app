@@ -1,0 +1,15 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "Web3 Quiz Master",
+    "iconUrl": "https://your-vercel-url.vercel.app/icon.png",
+    "splashImageUrl": "https://your-vercel-url.vercel.app/splash.png",
+    "splashBackgroundColor": "#9333ea",
+    "homeUrl": "https://your-vercel-url.vercel.app"
+  }
+}

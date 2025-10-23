@@ -6,10 +6,24 @@
   },
   "frame": {
     "version": "1",
-    "name": "Web3 Quiz Master",
-    "iconUrl": "https://your-vercel-url.vercel.app/icon.png",
-    "splashImageUrl": "https://your-vercel-url.vercel.app/splash.png",
+    "name": "Farcaster Quiz Master",
+    "subtitle": "Farcaster Knowledge Challenge",
+    "description": "Test your Farcaster knowledge with 5 simple questions. Pay gas to unlock results and save your score onchain on Base!",
+    "iconUrl": "https://farcaster-quiz-phi.vercel.app/icon.png",
+    "splashImageUrl": "https://farcaster-quiz-phi.vercel.app/splash.png",
     "splashBackgroundColor": "#9333ea",
-    "homeUrl": "https://your-vercel-url.vercel.app"
+    "homeUrl": "https://farcaster-quiz-phi.vercel.app",
+    "heroImageUrl": "https://farcaster-quiz-phi.vercel.app/hero.png",
+    "primaryCategory": "games",
+    "tags": ["quiz", "education", "blockchain", "base", "onchain"],
+    "tagline": "Test your Farcaster knowledge!",
+    "ogTitle": "Farcaster Quiz Master",
+    "ogDescription": "Challenge yourself with onchain farcaster quiz on Base",
+    "ogImageUrl": "https://farcaster-quiz-phi.vercel.app/og-image.png",
+    "requiredChains": ["eip155:8453"],
+    "requiredCapabilities": [
+      "wallet.getEthereumProvider",
+      "actions.ready"
+    ]
   }
 }
